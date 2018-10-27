@@ -8,6 +8,9 @@ void main()
 	printf("\n x: %d\n", x,y);
 
 	// add swap logic here
+    int temp=x;
+    x=y;
+    y =temp;
 	
 	printf("\n values after swaping");
 	printf("\n x: %d\n",x,y);
